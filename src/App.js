@@ -12,6 +12,7 @@ const App = () => {
           element={
             <>
               <MainEntry/>
+              <p>blabla</p>
             </>
           }
         />
