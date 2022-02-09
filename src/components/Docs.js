@@ -1,8 +1,11 @@
+import React from 'react';
+
+
 function Docs() {
   return <div>
-  <h1>test test test docs cdodc dodc docs docs</h1>
+  <a  target="_blank" rel="noreferrer" href="https://fcc-docs.herokuapp.com/">The Docs Page</a>
+
   </div>;
 }
 
 export default Docs;
-
