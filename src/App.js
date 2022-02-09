@@ -22,7 +22,12 @@ const App = () => {
           path="/"
           element={
             <>
+<<<<<<< HEAD
               <MainEntry modalIsVisible={modalIsVisible} closeModal={closeModal}/>
+=======
+              <MainEntry/>
+              <p>blabla</p>
+>>>>>>> 00e3b86b4c3f094a07df8d9a51dd08a834bd5a88
             </>
           }
         />
