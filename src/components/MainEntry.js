@@ -3,11 +3,13 @@ import StartupModal from "./UI/Button/StartupModal/StartupModal";
 import Button from "./UI/Button/Button";
 
 function MainEntry({ modalIsVisible, closeModal }) {
+  
   return (
     <>
       {modalIsVisible ? <StartupModal closeModal={closeModal} /> : null}
       <div>
         <h1>MainEntry page</h1>
+
 
           <Button>
             <a

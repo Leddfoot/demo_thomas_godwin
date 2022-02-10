@@ -1,0 +1,13 @@
+.test-button-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font: inherit;
+  background-color: blue;
+  display: flex;
+  width: 60%;
+  height: 2.5rem;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items: center;
+}

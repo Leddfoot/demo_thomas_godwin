@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./UI/Button/Button";
 
 function FccTests() {
   let fccTestElement = document.getElementById("fcc_test_suite_wrapper");
@@ -14,33 +13,10 @@ function FccTests() {
     document.body.appendChild(script);
   }
 
-  const getScript = () => {
-    fccTestElement = document.getElementById("fcc_test_suite_wrapper");
-    if (fccTestElement != null) {
-      fccTestElement.style.visibility = "visible";
-    } else {
-      console.log("Not connected, cant get the FCC test suite CDN");
-    }
-  };
 
-  const removeDom = () => {
-    fccTestElement = document.getElementById("fcc_test_suite_wrapper");
-    if (fccTestElement != null) {
-      fccTestElement.style.visibility = "hidden";
-    } else {
-      console.log("Not connected, cant get the FCC test suite CDN");
-    }
-  };
 
   return (
-    <div className="fcc-test-container">
-      <Button className="fcc-test" onClick={getScript}>
-        add
-      </Button>
-      <Button className="fcc-test" onClick={removeDom}>
-        remove
-      </Button>
-    </div>
+    <></>
   );
 }
 
