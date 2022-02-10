@@ -1,17 +1,18 @@
 import { useContext } from "react"
 import TimerContext from "../context/TimerContext"
+import Button from '../../components/UI/Button/Button'
 
 const TimerControls = () => {
 
     const { startStop,reset } = useContext(TimerContext)
  
     return (
-        <div>
-            <button id="start_stop" onClick={startStop}>
+        <div className="timer-controls">
+            <Button id="start_stop" onClick={startStop}>
                 Start/Stop Timer
-            </button>
+            </Button>
 
-            <button id="reset" onClick={reset}>Reset</button>
+            <Button id="reset" onClick={reset}>Reset</Button>
         </div>
     )
 }

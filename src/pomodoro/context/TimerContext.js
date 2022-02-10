@@ -9,7 +9,7 @@ export const TimerProvider = ({ children }) => {
 
   const [timerState, setTimerState] = useState({
     isRunning: false,
-    sessionType: "session",
+    sessionType: "In the Zone",
     sessionLength: 1500,
     breakLength: 300,
   });
@@ -81,15 +81,15 @@ export const TimerProvider = ({ children }) => {
       playSound()
     //This switches the sessionType and starts the timer over with that amount of time
     let newTimerLength =
-      timerState.sessionType === "session"
+      timerState.sessionType === "In the Zone"
         ? timerState.breakLength
         : timerState.sessionLength;
-    if (timerState.sessionType === "session") {
+    if (timerState.sessionType === "In the Zone") {
       setSecondsRemaining(newTimerLength);
 
       setTimerState({
         isRunning: timerState.isRunning,
-        sessionType: "break",
+        sessionType: "Chillax",
         sessionLength: timerState.sessionLength,
         breakLength: timerState.breakLength,
       });
@@ -118,7 +118,7 @@ export const TimerProvider = ({ children }) => {
 
     setTimerState({
       isRunning: false,
-      sessionType: "session",
+      sessionType: "In the Zone",
       sessionLength: 1500,
       breakLength: 300,
     });
