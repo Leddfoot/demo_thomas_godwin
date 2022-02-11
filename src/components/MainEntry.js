@@ -9,7 +9,7 @@ function MainEntry({ modalIsVisible, closeModal }) {
       <div>
         <h1>MainEntry page</h1>
         <h2>TODOS</h2>
-        <h3>Style Drum, docs -- cleanup(junk in middle</h3>
+        <h3>Style Drum & Markdown, docs -- cleanup(junk in middle</h3>
 
         <Button>
           <a
@@ -28,6 +28,12 @@ function MainEntry({ modalIsVisible, closeModal }) {
         </Button>
         <Button>
           <a href="/drum">Drum Machine</a>
+        </Button>
+        <Button>
+          <a href="/markdown">Markdown Previewer</a>
+        </Button>
+        <Button>
+          <a href="/landing-page">Product Landing Page</a>
         </Button>
       </div>
     </>

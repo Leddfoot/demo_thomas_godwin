@@ -7,6 +7,8 @@ import Docs from "./components/Docs";
 import Pomodoro from "./pomodoro/Pomodoro";
 import Calculator from "./calculator/Calculator";
 import Drum from './drum/Drum'
+import Markdown from "./markdown-preview/Markdown";
+import LandingPage from "./product-landing-page/LandingPage";
 
 const App = () => {
   const [modalIsVisible, setModalIsVisible] = useState(true);
@@ -44,8 +46,8 @@ const App = () => {
 
       <Route path="/calculator" element={<Calculator />} />
       <Route path="/drum" element={<Drum />} />
-      <Route path="/notusedyet" element={<Docs />} />
-      <Route path="/notusedyet" element={<Docs />} />
+      <Route path="/markdown" element={<Markdown />} />
+      <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/notusedyet" element={<Docs />} />
     </Routes>
   </Router>

@@ -1,8 +1,7 @@
-body {
-  background-color: lime;
-}
+
 
 .pomodoro-container {
+  background-color: lime;
   font-family: Arial, Helvetica, sans-serif;
   font-family: "Shadows Into Light Two", cursive;
   margin-top: 3rem;
