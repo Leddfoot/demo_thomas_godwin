@@ -2,10 +2,11 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainEntry from "./components/MainEntry";
 import FccTests from "./components/FccTests";
+import TestButton from "./components/UI/Button/TestButton";
 import Docs from "./components/Docs";
 import Pomodoro from "./pomodoro/Pomodoro";
-import TestButton from "./components/UI/Button/TestButton";
-
+import Calculator from "./calculator/Calculator";
+import Drum from './drum/Drum'
 
 const App = () => {
   const [modalIsVisible, setModalIsVisible] = useState(true);
@@ -41,6 +42,10 @@ const App = () => {
         element={<Docs />}
       />
 
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/drum" element={<Drum />} />
+      <Route path="/notusedyet" element={<Docs />} />
+      <Route path="/notusedyet" element={<Docs />} />
       <Route path="/notusedyet" element={<Docs />} />
     </Routes>
   </Router>

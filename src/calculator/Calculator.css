@@ -19,21 +19,6 @@ body {
   justify-content: center;
 }
 
-.header__fcc-explanation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 0 1rem 0 4rem;
-  height: 8vh;
-  background: darkblue;
-  width: 100%;
-  color: white;
-  font-family: san-serif;
-  font-size: 0.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .main-container {
   padding-top: 8vh;
@@ -65,7 +50,8 @@ body {
   background: grey;
 }
 
-button {
+.button-array__container--digits button,
+.button-array__container--operands button {
   background: grey;
   border: 2px solid black;
   display: inline-block;

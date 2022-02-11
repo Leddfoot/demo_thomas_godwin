@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80%;
 }
 
 .timer-container {
@@ -94,6 +93,8 @@ body {
   flex-direction: row;
   align-items: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .timer-controls button {
@@ -110,9 +111,10 @@ body {
   }
 }
 
-@media (max-height: 900px) {
+@media (max-height: 850px) {
   .pomodoro-container h1 {
     font-size: 1rem;
+    background-color: red;
   }
   .break-duration-container {
     margin-top: 0.5rem;
