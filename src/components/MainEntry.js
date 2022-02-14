@@ -1,11 +1,10 @@
 import React from "react";
-import StartupModal from "./UI/Button/StartupModal/StartupModal";
+// import StartupModal from "./UI/Modals/StartupModal";
 import Button from "./UI/Button/Button";
 
-function MainEntry({ modalIsVisible, closeModal }) {
+function MainEntry({ modalIsVisible }) {
   return (
     <>
-      {modalIsVisible ? <StartupModal closeModal={closeModal} /> : null}
       <div>
         <h1>MainEntry page</h1>
         <h2>TODOS</h2>
@@ -33,7 +32,19 @@ function MainEntry({ modalIsVisible, closeModal }) {
           <a href="/markdown">Markdown Previewer</a>
         </Button>
         <Button>
-          <a href="/landing-page">Product Landing Page</a>
+          <a href="/landing-page" >Product Landing Page</a>
+        </Button>
+        <Button>
+          <a href="/survey" >Product Survey</a>
+        </Button>
+        <Button>
+          <a href="/quote" >Quote Machine</a>
+        </Button>
+        <Button>
+          <a href="/tribute" >Tribute</a>
+        </Button>
+        <Button>
+          <a href="/" >Personal Portfolio Do I need?</a>
         </Button>
       </div>
     </>

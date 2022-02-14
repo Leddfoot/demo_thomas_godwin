@@ -1,0 +1,150 @@
+import React from "react";
+import './Survey.css'
+
+function Survey() {
+  return (
+    <>
+      <header id="header" className="clearfix">
+        <div className="img-container">
+          <img
+            src="https://leddfoot.github.io/imageServer/vpblogo.jpg"
+            id="header-img"
+            alt="logo.skeletion with viking helmet"
+          />
+        </div>
+      </header>
+      <div className="main-content-wrapper">
+        <div className="form-header-section">
+          <h1 id="title">Beer Preference Survey</h1>
+          <h2>Your opinions matter</h2>
+          <p id="description">
+            This is a quick and painless poll about your beer drinking
+            preferences. Just register your name and email below, and we will
+            contact you, but only if you wish.
+          </p>
+        </div>
+        <div class="main-content-wrapper">
+          <div class="form-header-section">
+            <h1 id="title">Beer Preference Survey</h1>
+            <h2>Your opinions matter</h2>
+            <p id="description">
+              This is a quick and painless poll about your beer drinking
+              preferences. Just register your name and email below, and we will
+              contact you, but only if you wish.
+            </p>
+          </div>
+
+          <form id="survey-form" onsubmit={console.log('dummy')}>
+          <div class="form-section">
+              <label id="name-label" for="name">Name</label>
+              <input class="text-input" type="text" name="name" id="name" placeholder="Enter your Name" required />
+          </div>
+          <div class="form-section">
+          <label id="email-label" for="email">Email</label>
+          <input class="text-input" type="email" name="email" id="email" placeholder="Enter your Email" required />
+      </div>
+      <div class="form-section">
+          <label id="number-label" for="age">Age</label>
+          <input class="text-input" type="number" value="18" name="age" id="number" placeholder="Enter your Age" increment="1"
+              min="1" max="120" required />
+      </div>
+
+
+
+
+      <div class="form-section">
+
+            <h2>Enter your preferences below:</h2>
+            <div class="block-container">
+                <input type="radio" name="pilsner-or-lager" value="pilsner" /><label
+                    for="pilsner-or-lager">Pilsner</label>
+            </div>
+            <div class="block-container">
+                <input type="radio" name="pilsner-or-lager" value="lager" /><label
+                    for="pilsner-or-lager">Lager</label>
+            </div>
+
+            <hr/>
+      <div class="block-container">
+          <input type="radio" name="hops-preference" value="prefer-strong-hops" />
+          <label for="hops-preference">I like a lot of hops flavor.</label>
+      </div>
+      <div class="block-container">
+          <input type="radio" name="hops-preference" value="lager" />
+          <label for="hops-preference">I like a little hops flavor.</label>
+      </div>
+      <div class="block-container">
+          <input type="radio" name="hops-preference" value="lager" />
+          <label for="hops-preference">I want the least possible amount of hops.</label>
+      </div>
+      <hr/>
+      <div class="block-container"> <input type="radio" name="flavor-preference" value="lager" />
+          <label for="flavor-preference">I like as little overall flavor in my beer as possible. I like it to
+              go down smooth so I can drink a few.</label>
+      </div>
+      <div class="block-container">
+          <input type="radio" name="flavor-preference" value="lager" />
+          <label for="flavor-preference">I like my beer thick and full of flavor. Guinness Stout is the best
+              thing ever made!</label>
+      </div>
+  </div>
+  <div class="form-section" id="dropdown-section">
+  <label id="dropdown-text">How often do you like to enjoy a cold beer?</label>
+  <select id="dropdown" name="xxx">
+      <option disabled="" selected="" value="">Choose one</option>
+      <option value="1-2">1 or 2 beers per week</option>
+      <option value="3-4">3 or 4 beers per week</option>
+      <option value="5-10">5-10 beers per week</option>
+      <option value="too-much">I have a platinum membership at Alcoholics Anonymous</option>
+  </select>
+  </div>
+  
+  <div class="form-section">
+    <div class="block-container">
+        <input type="checkbox" value="spam-me"/><label for="spam-me">Please fill my inbox with junkmail and
+            pictures of puppies running around your brewery.</label>
+    </div>
+    <div class="block-container">
+        <input type="checkbox" value="contact-me"/><label for="contact-me">I want a brewmaster to contact
+            me about making a custom beer for me.</label>
+    </div>
+    <div class="block-container">
+        <input type="checkbox" value="wants-tour"/><label>I want free tickets to tour your brewery.</label>
+    </div>
+</div>
+
+<div class="form-section">
+<p>Is there anything you would like to tell us? Have your tried our beer and think that it's the
+    greatest thing since sliced bread? Did you have a bad experience with our beer (like: drank too many
+    because they went down so smoothly). Do you have any suggestions or anything that you would like us
+    to know?</p>
+
+
+</div>
+<div class="form-section">
+<textarea></textarea>
+</div>
+<div class="form-section">
+<button id="submit">Fire Away</button>
+</div>
+  
+
+
+          
+
+      </form>
+
+
+
+
+        </div>
+      </div>
+
+      <footer id="footer-wrapper">
+        <p id="footer-text">&#169;&#9760; 2021 Thomas Godwin&#9760;&#9996;</p>
+      </footer>
+    </>
+  );
+}
+
+export default Survey;

@@ -1,5 +1,4 @@
 import React from "react";
-// import Button from '../Button';
 import "./StartupModal.css";
 
 function StartupModal({closeModal}) {
@@ -27,11 +26,3 @@ function StartupModal({closeModal}) {
 
 export default StartupModal;
 
-// <div className='startup-modal__card'>
-// <p>bla bla</p>
-// <div className='startup-modal'></div>
-// <Button onClick={props.closeModal}>Close this annoying popup</Button>
-// <Button>I got it!</Button>
-// </div>
-
-// </div>

@@ -1,38 +1,40 @@
-import React from "react";
+import React, {useState} from "react";
 import Button from "./Button";
 
 import './TestButton.css'
 
 function TestButton() {
-    
-  let fccTestElement = document.getElementById("fcc_test_suite_wrapper") 
+  
+  const [testSuiteIsVisible, setTestSuiteIsVisible] = useState(true)
+  const [fccTestElement] = useState(document.getElementById("fcc_test_suite_wrapper"))
+  const [testWrapperIsVisible, setTestWrapperIsVisible] = useState(true)
+  
 
-  const getScript = () => {
-    fccTestElement = document.getElementById("fcc_test_suite_wrapper");
-    if (fccTestElement != null) {
-      fccTestElement.style.visibility = "visible";
-    } else {
-      console.log("Not connected, cant get the FCC test suite CDN");
-    }
+  const toggleFCCTests = () => {
+    setTestSuiteIsVisible(!testSuiteIsVisible)
+    testSuiteIsVisible ? fccTestElement.style.visibility = "hidden" : fccTestElement.style.visibility = "visible"
   };
 
-  const removeDom = () => {
-    fccTestElement = document.getElementById("fcc_test_suite_wrapper");
-    if (fccTestElement != null) {
-      fccTestElement.style.visibility = "hidden";
-    } else {
-      console.log("Not connected, cant get the FCC test suite CDN");
-    }
-  };
+  const logit=()=>{
+    setTestWrapperIsVisible(!testWrapperIsVisible)
+    fccTestElement.style.visibility = "hidden"
+
+    const landingPageHeader = document.getElementsByClassName('landing-page__header')
+    const topSection = document.getElementById('our-philosophy')
+    landingPageHeader[0].style.top = 0
+    topSection.style.marginTop = 0
+  }
   return (
-    <div className="test-button-wrapper">
-    <Button addClass="fcc-test" onClick={getScript}>
-      add
-    </Button>
-    <Button addClass="fcc-test" onClick={removeDom}>
-      remove
-    </Button>
-  </div>
+    <>
+    {!testWrapperIsVisible ? null :     <div className="test-button-wrapper">
+    <Button addClass="fcc-test" onClick={toggleFCCTests}>
+     Show/Hide Tests
+   </Button>
+   <Button addClass="fcc-test" onClick={logit}>
+   Hide Us!
+   </Button>
+ </div>}
+    </>
   )
 
 }

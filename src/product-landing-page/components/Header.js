@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <header id="header" className="clearfix">
+    <header id="header" className="landing-page__header">
 
     <div className="img-container">
         <img src="https://leddfoot.github.io/imageServer/vpblogo.jpg" id="header-img" className='header-img' alt='crappy fake logo with a skull and viking hat'/>

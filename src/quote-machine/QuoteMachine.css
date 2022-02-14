@@ -1,0 +1,11 @@
+.quote-container {
+    height: 100%;
+}
+
+.quote-container img{
+    height: 100%;
+}
+
+.quote-area {
+    background-color: red;
+}

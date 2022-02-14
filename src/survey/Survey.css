@@ -1,0 +1,55 @@
+
+#header-img{
+    display: block;
+    max-width: 50%;
+    margin:auto;
+}
+
+
+.main-content-wrapper{
+    margin:auto;
+    margin-top: 2vw;
+    width: 75%;
+    background-color: rgb(24, 83, 194);
+    border: 2px solid orangered;
+    border-radius: 4px;    
+}
+
+.form-section, .form-header-section {
+    margin: auto;
+    width: 80%;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+h1 {
+    font-size: 6vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.block-container{
+    display: block;
+}
+
+#submit{
+    margin: auto;
+    background-color: black;
+}
+textarea{
+    margin: auto;
+}
+#footer-wrapper{
+    float: right;
+}
+
+
+
+#dropdown-section{
+    position: relative;
+    display: inline-block;
+  }
