@@ -10,7 +10,7 @@ import Drum from './drum/Drum'
 import Markdown from "./markdown-preview/Markdown";
 import LandingPage from "./product-landing-page/LandingPage";
 import Survey from "./survey/Survey";
-import QuoteMachine2 from "./quote-machine/QuoteMachine2";
+import QuoteMachine from './quote-machine/QuoteMachine'
 
 const App = () => {
   const [modalisvisible] = useState(true);
@@ -50,7 +50,7 @@ const App = () => {
       <Route path="/markdown" element={<Markdown />} />
       <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/survey" element={<Survey />} />
-      <Route path="/quote" element={<QuoteMachine2 />} />
+      <Route path="/quote" element={<QuoteMachine />} />
       <Route path="/notusedyet" element={<Docs />} />
       <Route path="/notusedyet" element={<Docs />} />
     </Routes>

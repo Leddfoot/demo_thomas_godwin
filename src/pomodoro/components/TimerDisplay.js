@@ -17,7 +17,7 @@ const TimerDisplay = () => {
 
   return (
     <div>
-      <p className="current-status">{sessionType}</p>
+      <p className="current-status"  id="timer-label">{sessionType}</p>
       <p id="time-left">{displayMinutes}:{displaySeconds}</p>
     </div>
   );
