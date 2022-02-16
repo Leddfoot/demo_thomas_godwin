@@ -1,55 +1,100 @@
-
-.survey__header .img-container{
-    display: block;
-    max-width: 50%;
-    margin:auto;
+.survey__wrapper{
+    background-color: cornflowerblue;
+    padding-top: .5rem;
+    width: 100%;
+    color: white;
 }
 
-
-.main-content-wrapper{
-    margin:auto;
-    margin-top: 2vw;
-    width: 75%;
-    background-color: rgb(24, 83, 194);
-    border: 2px solid orangered;
-    border-radius: 4px;    
+.survey__wrapper label {
+    padding: .5rem;
 }
 
-.form-section, .form-header-section {
-    margin: auto;
+.survey__header {
+    height: 6rem;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.survey__header .img-container {
+    width: 40%;
+    height: 100%;   
+    background: url('https://leddfoot.github.io/imageServer/vpblogo.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-header-section h1 {
+    margin-top: 1.5rem;
+}
+
+.survey__wrapper .main-content__wrapper{
     width: 80%;
-    padding-right: 3vw;
-    padding-left: 3vw;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-h1 {
-    font-size: 6vw;
-    text-align: center;
+.survey__wrapper .personal-info {
+    display: flex;
+    flex-direction: column;
 }
 
-h2 {
-    font-size: 4vw;
-    text-align: center;
+.personal-info .text-input{ 
+    width: 75%;
+    float: right;
+    border:none;
+    border-radius: 2px;
+    font: inherit;
+    font-size: .75rem;
 }
 
-.block-container{
+.block-container--pilsner-preference{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+.block-container--hops-preference,
+.block-container--flavor-preference,
+.block-container--frequency-preference,
+.form-section__consent {
+    padding: 1rem 0;
+    border-bottom: 2px solid white;
+}
+
+.block-container--frequency-preference select {
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-top: .5rem;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    font: inherit;
+}
+
+.form-section__consent .block-container {
+    margin-bottom: .5rem;
+}
+
+.survey__wrapper textarea { 
+    width: 100%;
+    height: 5rem;
+    resize: none;
+    outline: none;
+    border:none;
+    font: inherit;
+    border-radius: 2px;
+    /* box-shadow: cornflowerblue 10px 10px 1px 1px inset; */
+    box-shadow: 0 2px 8px cornflowerblue inset;
+
+}
+
+
+.submit__button--wrapper button {
+    margin: 1rem auto;
     display: block;
 }
 
-#submit{
-    margin: auto;
-    background-color: black;
-}
-textarea{
-    margin: auto;
-}
-#footer-wrapper{
-    float: right;
-}
 
 
 
-#dropdown-section{
-    position: relative;
-    display: inline-block;
-  }
+
