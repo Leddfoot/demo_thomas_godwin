@@ -8,7 +8,7 @@ function MainEntry({ modalIsVisible }) {
       <div>
         <h1>MainEntry page</h1>
         <h2>TODOS</h2>
-        <h3>Style Drum & Markdown, docs -- cleanup(junk in middle</h3>
+        <h3>Style Drum & Markdown, survey redo all styles</h3>
 
         <Button>
           <a

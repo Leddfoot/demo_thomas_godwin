@@ -1,18 +1,13 @@
 .button {
   font: inherit;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #8b005d;
+  border: 1px solid rgb(55, 52, 255);
   color: white;
-  background: #8b005d;
+  background: rgb(55, 52, 255);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
   cursor: pointer;
 }
 
-/*temp*/
-.button a,
-.button a:visited {
-  color: white;
-}
 
 .button:focus {
   outline: none;
@@ -20,18 +15,15 @@
 
 .button:hover,
 .button:active {
-  background: #ac0e77;
-  border-color: #ac0e77;
+  background: blue;
+  border-color: blue;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 }
 
 .fcc-test-container button{
   float: right;
 }
-/* .fcc-test-container button{
-  background: blue;
-  position: fixed;
-  top: 0;
-  right: 0;
-} */
 
+.fcc-test-container > .fcc-test {
+  background-color: blue;
+}
