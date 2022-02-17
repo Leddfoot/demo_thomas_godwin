@@ -28,23 +28,28 @@
 
 .survey__wrapper .main-content__wrapper{
     width: 80%;
+    max-width: 1000px;
     margin: auto;
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.survey__wrapper .personal-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.personal-info .text-input{ 
+.personal-info .text-input{
+    display: block; 
     width: 75%;
-    float: right;
+    max-width: 550px;
     border:none;
     border-radius: 2px;
     font: inherit;
     font-size: .75rem;
+}
+
+.personal-info label {
+    padding: 0;
+    padding-bottom: 5rem;
+}
+.personal-info .form-section {
+    margin: .5rem 0;
 }
 
 .block-container--pilsner-preference{
@@ -60,12 +65,10 @@
 }
 
 .block-container--frequency-preference select {
-    overflow: hidden;
-    white-space: pre;
-    text-overflow: ellipsis;
     font-weight: bold;
     margin-top: .5rem;
-    width: 100%;
+    width: 75%;
+    max-width: 550px;
     border: none;
     border-radius: 2px;
     font: inherit;
@@ -83,7 +86,6 @@
     border:none;
     font: inherit;
     border-radius: 2px;
-    /* box-shadow: cornflowerblue 10px 10px 1px 1px inset; */
     box-shadow: 0 2px 8px cornflowerblue inset;
 
 }
@@ -93,6 +95,7 @@
     margin: 1rem auto;
     display: block;
 }
+
 
 
 
