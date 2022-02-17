@@ -1,6 +1,5 @@
 import Display from "./Display";
 import ButtonArray from "./ButtonArray";
-import Footer from "./Footer";
 
 const MainContainer = () => {
   return (
@@ -9,7 +8,6 @@ const MainContainer = () => {
       <div className="main-container">
         <Display />
         <ButtonArray />
-        <Footer />
       </div>
     </>
   );

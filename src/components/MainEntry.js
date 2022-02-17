@@ -13,7 +13,7 @@ function MainEntry({ modalIsVisible }) {
       <div className="main-entry__wrapper">
         <h1>MainEntry page</h1>
         <h2>TODOS</h2>
-        <h3>Style Drum & Markdown, survey-- large styles</h3>
+        <h3>Style Drum & Markdown, calc -- change footer, add footer to all except docs</h3>
         <h3>YOU ARE WORKING ON SURVEY LARGE STYLING</h3>
 
         <Button>

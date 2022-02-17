@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Philosophy from "./components/Philosophy";
 import AboutUs from "./components/AboutUs";
 import OurSecret from "./components/OurSecret";
-import Footer from "./components/Footer";
+import Footer from '../components/UI/Footer/Footer'
 import TestButtonContext from "../components/context/TestButtonContext";
 
 import "./LandingPage.css";

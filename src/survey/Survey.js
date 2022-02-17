@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../components/UI/Footer/Footer"
+
 import "./Survey.css";
 
 function Survey() {
@@ -200,9 +202,7 @@ function Survey() {
         </div>
       </div>
 
-      <footer id="footer-wrapper" className="footer-wrapper">
-        <p id="footer-text">&#169;&#9760; 2021 Thomas Godwin&#9760;&#9996;</p>
-      </footer>
+      <Footer />
     </>
   );
 }
