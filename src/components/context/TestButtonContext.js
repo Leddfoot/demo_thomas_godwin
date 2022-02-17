@@ -6,7 +6,7 @@ export const TestButtonProvider = ({ children }) => {
 
   const [testButtonVisible, setTestButtonVisible] = useState(false)
 
-  const hideButtons =()=> {
+  const hideTestSuite =()=> {
     setTestButtonVisible(false)
   }
 
@@ -18,7 +18,7 @@ const showRemoveButton =()=>{
     <TestButtonContext.Provider
       value={{
         testButtonVisible,
-        hideButtons, 
+        hideTestSuite, 
         showRemoveButton
       }}>
       {children}

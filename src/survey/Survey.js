@@ -30,7 +30,7 @@ function Survey() {
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Enter your Name"
+                  placeholder="Name"
                   required
                 />
               </div>
@@ -43,7 +43,7 @@ function Survey() {
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="Enter your Email"
+                  placeholder="Email"
                   required
                 />
               </div>
@@ -54,10 +54,9 @@ function Survey() {
                 <input
                   className="text-input"
                   type="number"
-                  defaultValue="18"
                   name="age"
                   id="number"
-                  placeholder="Enter your Age"
+                  placeholder="Age"
                   increment="1"
                   min="1"
                   max="120"

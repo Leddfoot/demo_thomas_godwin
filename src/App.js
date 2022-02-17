@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainEntry from "./components/MainEntry";
 import FccTests from "./components/FccTests";
-import TestButton from "./components/UI/Button/TestButton";
+import RemoveTestsButton from "./components/UI/Button/RemoveTestsButton";
 import Pomodoro from "./pomodoro/Pomodoro";
 import Calculator from "./calculator/Calculator";
 import Drum from "./drum/Drum";
@@ -23,7 +23,7 @@ const App = () => {
       <FccTests />
       <Router>
         <TestButtonProvider>
-          <TestButton />
+          <RemoveTestsButton />
         <Routes>
           <Route
             exact
