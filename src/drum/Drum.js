@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Container from "./components/Container";
 import sounds from "./components/sounds";
 
+import './Drum.css'
+
 
 function Drum() {
 

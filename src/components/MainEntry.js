@@ -13,8 +13,9 @@ function MainEntry({ modalIsVisible }) {
       <div className="main-entry__wrapper">
         <h1>MainEntry page</h1>
         <h2>TODOS</h2>
-        <h3>Style Drum & Markdown, calc -- change footer, add footer to all except docs</h3>
-        <h3>YOU ARE WORKING ON SURVEY LARGE STYLING</h3>
+        <h3>Style Drum & Markdown, and quotes</h3>
+        <h1>Quote MYSTERY GAP UP TOP...TRYING... </h1>
+        <h1>TO IMPORT COMPONENTS INSTEAD OF HAVING EVERYTHING ON MAIN PAGE </h1>
 
         <Button>
           <a

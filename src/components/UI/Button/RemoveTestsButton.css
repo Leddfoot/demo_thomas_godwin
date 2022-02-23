@@ -12,3 +12,7 @@
     justify-content:flex-end;
     align-items: center;
   }
+
+  .test-button-wrapper button{
+    margin-right: 1rem;
+  }

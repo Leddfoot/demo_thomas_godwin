@@ -1,13 +1,13 @@
 const sounds = [
-    {   name: 'chord1',
+    {   name: 'piano chord1',
         link: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3',
         letter: 'Q'
     },
-    {   name: 'chord2',
+    {   name: 'piano chord2',
         link: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3',
         letter: 'W'
     },
-    {   name: 'chord3',
+    {   name: 'piano chord3',
         link: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3',
         letter: 'E'
     },

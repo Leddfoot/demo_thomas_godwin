@@ -2,8 +2,8 @@ import React from 'react'
 
  const Display =(props)=>{
     return (
-       <div id="display">
-       {props.soundPlayed}
+       <div>
+       <p>Last Sound Played: </p><p id="display">{props.soundPlayed}</p>
         </div>
     )
 }

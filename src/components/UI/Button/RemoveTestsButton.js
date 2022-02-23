@@ -34,7 +34,7 @@ function RemoveTestsButton() {
   return (
     <div className="test-button-wrapper">
       <Button addId="hide-test-panel" onClick={handleRemoveTestPanel}>
-        Remove Top Bar
+        Remove Test Suite
       </Button>
     </div>
   );

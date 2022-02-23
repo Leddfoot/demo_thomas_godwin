@@ -1,0 +1,29 @@
+
+
+.quote-container {
+    height: 96vh;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: inline-block;
+    background: url('./img/rohit-d-silva-yi5lYsYpbIo-unsplash.jpg');
+    background-size: cover;
+}
+
+.quote-area {
+    font-size: 3rem;
+    color: darkblue;
+    margin: auto;
+    margin-top: 8vh;
+    width: 80%;
+    height: 80vh;
+    background-color: antiquewhite;
+    opacity: .8;
+    border-radius: 4px;
+    
+    
+}
+
+.quote-area p{
+    opacity: 1;
+    padding: 2rem;
+}
