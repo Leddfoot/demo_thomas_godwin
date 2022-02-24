@@ -5,7 +5,7 @@ import './QuoteMachine.css'
 
 function QuoteMachine() {
   return (
-    <div className="quote-container">
+    <div className="quote-container" id="quote-box">
       <QuoteResults />
     </div>
   );

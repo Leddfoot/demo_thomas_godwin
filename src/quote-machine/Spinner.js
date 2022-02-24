@@ -1,14 +1,14 @@
-import React from 'react'
-import spinner from './img/spinner.gif'
+import React from "react";
+import spinner from "./img/spinner.gif";
 
 function Spinner() {
-
   return (
-    <div>
-    <img src={spinner} alt='loading'/>
-    
+    <div className="spinner-container">
+      <div className="spinner-image-container">
+        <img src={spinner} alt="loading" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Spinner
+export default Spinner;
