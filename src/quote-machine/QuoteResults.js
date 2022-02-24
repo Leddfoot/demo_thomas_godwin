@@ -34,7 +34,6 @@ function QuoteResults() {
     const randomNumber = Math.floor(Math.random() * quoteList.length);
     const quoteToDisplay = quoteList[randomNumber];
     const quoteToDisplayLength = quoteToDisplay.quote.length;
-    console.log('quoteToDisplayLength: ', quoteToDisplayLength);
     setQuoteLength(quoteToDisplayLength);
     setQuote(quoteList[randomNumber]);
   };
@@ -49,14 +48,11 @@ function QuoteResults() {
     let fontMultiplier = 1.5
 
     if (viewportWidth > 1000) {
-      console.log('viewportWidth: ', viewportWidth);
       fontMultiplier = 2
     } else if (viewportWidth > 700) {
-      console.log('viewportWidthsss: ', viewportWidth);
       fontMultiplier = 1.8
       
     }
-    console.log('fontMultiplier: ', fontMultiplier);
 
     if (quoteLength < 45) {
       quoteFontSize = fontMultiplier * 2 + 'rem';

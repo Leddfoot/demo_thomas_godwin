@@ -78,5 +78,10 @@
     width: 100%;
 }
 
-@media (min-width )
+@media (min-width: 850px){
+    .quote-area button,
+.quote-area a {
+    width: 30%;
+}
+}
 
