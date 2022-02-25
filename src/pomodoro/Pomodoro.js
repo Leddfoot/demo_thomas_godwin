@@ -4,6 +4,7 @@ import TimerControls from "./components/TimerControls";
 import TimerDisplay from "./components/TimerDisplay";
 import MainHeader from "./components/MainHeader";
 import Audio from "./components/Audio";
+import Footer from '../components/UI/Footer/Footer'
 
 import { TimerProvider } from "./context/TimerContext";
 
@@ -24,6 +25,7 @@ function Pomodoro() {
           <Audio />
         </div>
       </div>
+      <Footer />
     </TimerProvider>
   );
 }

@@ -22,7 +22,7 @@ const Container = (props) => {
   return (
     <>
       <div id="drum-machine" className="drum-wrapper">
-      <h1>Standard Drum Machine</h1>
+      <h1 className="drum-machine--title">Standard Drum Machine</h1>
       <h2>Click on any sound button, or alternatively press the keyboard button that corresponds with the letter on each button</h2>
         <Display soundPlayed={soundPlayed} />
         <div className="drumpad-container">

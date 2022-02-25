@@ -20,15 +20,40 @@ function RemoveTestsButton() {
     // the code below allow both to be shown (so tests can be ran) and removing the test suite allows
     // the landing page to be viewed as it is intended (stop the scrolling behind the test suite)
 
-    const landingPageHeader = document.getElementsByClassName(
-      "landing-page__header"
-    );
+    const landingPageHeader = document.getElementsByClassName("landing-page__header");
 
     if (landingPageHeader.length === 1) {
       const topSection = document.getElementById("our-philosophy");
       landingPageHeader[0].style.top = 0;
       topSection.style.marginTop = 0;
     }
+
+    const quoteContainer = document.getElementsByClassName("quote-container");
+    
+    if (quoteContainer.length === 1) {
+      quoteContainer[0].style.top = 0;
+      quoteContainer[0].style.marginTop = 0;
+    }
+    
+    const drumWrapper = document.getElementsByClassName("drum-wrapper");
+    const drumTitle = document.getElementsByClassName("drum-machine--title");
+
+    if (drumWrapper.length === 1) {
+      drumWrapper[0].style.top = 0;
+      drumWrapper[0].style.marginTop = 0;
+      drumTitle[0].style.marginTop = 0;
+    }
+
+
+    const markdownWrapper = document.getElementsByClassName("markdown-wrapper");
+    const markdownTitle = document.getElementsByClassName("markdown--title");
+
+    if (markdownWrapper.length === 1) {
+      markdownWrapper[0].style.top = 0;
+      markdownWrapper[0].style.marginTop = 0;
+      markdownTitle[0].style.marginTop = 0;
+    }
+
   };
 
   return (
