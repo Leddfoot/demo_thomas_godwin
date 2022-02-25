@@ -1,87 +1,84 @@
 .spinner-container {
-    background-color: blue;
-    opacity: .3;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    position: relative;
+  background-color: blue;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
 }
 
-
 .spinner-image-container {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .quote-container {
-    height: 96vh;
-    width: 100%;
-    background-color: blanchedalmond;
-    display: inline-block;
-    background: url('./img/rohit-d-silva-yi5lYsYpbIo-unsplash.jpg');
-    background-size: cover;
-    margin-top: 3rem;
+  height: 96vh;
+  width: 100%;
+  background-color: blanchedalmond;
+  display: inline-block;
+  background: url("./img/rohit-d-silva-yi5lYsYpbIo-unsplash.jpg");
+  background-size: cover;
+  margin-top: 3rem;
 }
 
 .quote-area {
-    color: darkblue;
-    margin: 0 auto;
-    margin-top: 8vh;
-    width: 80%;
-    max-width: 1000px;
-    height: 80vh;
-    background-color: antiquewhite;
-    opacity: .8;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-    
+  color: darkblue;
+  margin: 0 auto;
+  margin-top: 8vh;
+  width: 80%;
+  max-width: 1000px;
+  height: 80vh;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
 }
 
-.quote-area p{
-    opacity: 1;
-    padding:  0 1.5rem;
+.quote-area p {
+  opacity: 1;
+  padding: 0 1.5rem;
 }
 
 .quote-area #author {
-    color: red;
-    display: inline-block;
+  color: red;
+  display: inline-block;
 }
 
-.quote-area .quote-author { 
-    height: 80%;
+.quote-area .quote-author {
+  height: 80%;
 }
 .quote-area .button-container {
-    display: flex;
-    flex-direction: column;
-    flex-basis: content;
-    align-items: stretch;
-    width: 100%;
-    height: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-basis: content;
+  align-items: stretch;
+  width: 100%;
+  height: 20%;
 }
 
 .quote-area button,
 .quote-area a {
-    margin: auto;
-    margin-bottom: .5rem;
-    width: 50%;
-    font-size: .8rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  width: 50%;
+  font-size: 0.8rem;
 }
 
-.quote-area a button{
-    width: 100%;
+.quote-area a button {
+  width: 100%;
 }
 
-@media (min-width: 850px){
-    .quote-area button,
-.quote-area a {
+@media (min-width: 850px) {
+  .quote-area button,
+  .quote-area a {
     width: 30%;
+  }
 }
-}
-

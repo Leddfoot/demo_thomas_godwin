@@ -34,7 +34,7 @@ const bullshitFunction=(bs)=>{stuff angry wives say}
 
 
 ***Note that the image below has alt text!***
-![This is the alt text!](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+![this is the alt text-random small picture from unsplash](https://source.unsplash.com/random/100x100) 
 
 `
 
