@@ -10,6 +10,7 @@ function QuoteResults() {
 
   useEffect(() => {
     FetchQuoteList();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -28,6 +29,8 @@ function QuoteResults() {
     const randomNumber = Math.floor(Math.random() * quotes.length);
     const quoteToDisplay = quotes[randomNumber];
     setQuote(quoteToDisplay);
+    
+    adjustFontSize();
   };
 
   const setNewQuote = () => {
