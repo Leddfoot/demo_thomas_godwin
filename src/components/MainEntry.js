@@ -5,17 +5,10 @@ import Button from "./UI/Button/Button";
 import './MainEntry.css'
 
 function MainEntry({ modalIsVisible }) {
-
-
-  ///Note- using noreferrer bc linter says target blank wo is a security issue & I want all pages to open a new page
   return (
     <>
       <div className="main-entry__wrapper">
         <h1>MainEntry page</h1>
-        <h2>TODOS</h2>
-        <h3>Style Drum & Markdown, and quotes</h3>
-        <h1>Quote MYSTERY GAP UP TOP...TRYING... </h1>
-        <h1>TO IMPORT COMPONENTS INSTEAD OF HAVING EVERYTHING ON MAIN PAGE </h1>
 
         <Button>
           <a

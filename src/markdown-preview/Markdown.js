@@ -27,8 +27,8 @@ function Markdown() {
 
   const clearEditor =()=>{
     const editor = document.getElementById('editor')
-    console.log('editor: ', editor.textContent);
     editor.value = ''
+    setPremarkedText('')
   }
 
 

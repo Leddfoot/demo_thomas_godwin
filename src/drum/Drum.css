@@ -29,6 +29,7 @@
     font: inherit;
     font-size: 2rem;
     border: 2px solid white;
+    
 }
 
 .drumpad-container button:hover,
@@ -46,4 +47,7 @@
   border-color: blue;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 }
+
+
+
 

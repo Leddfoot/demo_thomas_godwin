@@ -9,8 +9,8 @@ const DrumPad = (props) => {
 
 
     return (
-        <button onClick={playSound} className="drum-pad" id={props.name}>
-            {props.letter}<audio className="clip" id={props.letter} src={props.link}></audio>
+        <button onClick={playSound} className="pushable" id={props.name}>
+            <span className='front'>{props.letter}</span><audio className="clip" id={props.letter} src={props.link}></audio>
         </button>
     )
 }
