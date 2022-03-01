@@ -67,13 +67,22 @@
 .quote-area button,
 .quote-area a {
   margin: auto;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   width: 50%;
   font-size: 0.8rem;
 }
 
 .quote-area a button {
   width: 100%;
+}
+
+.quote-area .credit-link {
+  font-size: .5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.quote-area .credit-link:visited {
+  color: inherit;
 }
 
 @media (min-width: 850px) {

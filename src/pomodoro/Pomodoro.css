@@ -113,7 +113,6 @@
 @media (max-height: 850px) {
   .pomodoro-container h1 {
     font-size: 1rem;
-    background-color: red;
   }
   .break-duration-container {
     margin-top: 0.5rem;

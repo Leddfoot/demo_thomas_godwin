@@ -45,7 +45,6 @@ function QuoteResults() {
     if (document.getElementById("text") === null) {
       return;
     }
-
     let viewportWidth = window.innerWidth
     let quoteFontSize = "";
     let fontMultiplier = 1.5
@@ -53,8 +52,11 @@ function QuoteResults() {
     if (viewportWidth > 1000) {
       fontMultiplier = 2
     } else if (viewportWidth > 700) {
-      fontMultiplier = 1.8
-      
+      fontMultiplier = 1.8      
+    } else if (viewportWidth > 700){
+      fontMultiplier = 1
+    } else {
+      fontMultiplier = .75
     }
 
     if (quoteLength < 45) {
@@ -98,7 +100,7 @@ function QuoteResults() {
             src="https://platform.twitter.com/widgets.js"
             charSet="utf-8"
           ></script>
-          <a href="https://unsplash.com/@rohitdsilva?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo by Rohit D'Silva on Unsplash</a>
+          <a className="credit-link" href="https://unsplash.com/@rohitdsilva?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo by Rohit D'Silva on Unsplash</a>
         </div>
       </div>
     );
