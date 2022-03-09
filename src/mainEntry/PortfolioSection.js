@@ -39,13 +39,14 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          <h2>#TLDR: vanilla JS, express, node, css, mobile first, cors headaches</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
+              This project was a self imposed vanilla js project. I wanted to ensure that my js skills were actually where I thought that they were (they weren't until after this one). Theres a whole lot of rendering code here that could produced more efficiently in react. There are also features like dates and paginating that could have been done a lot faster with npm i whatever. During production, after I had established many succesful API calls, I suddenly was blocked by CORS, and I believe that the vinmonopolet API must have changed allow-cors or something. I spent a bit of time trying to get around this with nothing but tears. In the end however, I solved my problem by creating my own Node exress server. I queried my own server and got around CORS. I was kinda proud of that. I used the experience later to create a documentation page for a certification requirement. That documentation can be found <a         
+              target="_blank"
+              rel="noreferrer"
+              href="https://fcc-docs.herokuapp.com/">here.</a>
             </p>
+            <p>The code repository for the vinmonopolet project is on <a href="https://github.com/Leddfoot/Vinmonopolet2.0">Github</a>. It is deployed live at Heroku <a href="https://leddfoot-test.herokuapp.com/">here.</a></p>
           </div>
         </div>
 
@@ -62,13 +63,11 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          <h2>#TLDR: html, css, node, express, mobile first, cors headaches</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
+             I completed this project for a certification on FreeCodeCamp. It's not so complex in itself. However it does offer insight into how I explain and document technical processes. More importantly, if you read some of the documentation itself, it does show how I overcame a nasty CORS situation and show that I can work at pure noob level with Node and express and fetching etc.
             </p>
+            <p>The code repository for the vinmonopolet project is on <a href="https://github.com/Leddfoot/docs_fcc">Github</a>. It is deployed live at Heroku <a href="https://github.com/Leddfoot/docs_fcc">here</a></p>
           </div>
         </div>
 
@@ -85,13 +84,11 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          <h2>#TLDR: html, css, javascript, react, mobile first</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
+             This project was created for a certification on FreeCodeCamp. It is pretty straightforward product landing page. The company is fictional and doesn't really exist. Shows off a nice design and solid mobile first styling.
             </p>
+            <p>The code repository for the product landing page project is on <a href="xx">Github</a>. It is deployed live at Heroku <a href="xxx">here</a></p>
           </div>
         </div>
 
@@ -108,13 +105,11 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          <h2>#TLDR: html, css, javascript, mobile first</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
-            </p>
+            This project was created for a certification on FreeCodeCamp. It is a survey page that complements the product landing page above. Note that there is no functionality. It is more of a visual implementation project. Note that most of the styling uses id selectors. I did that because of their high specificity. I have since taken a CSS deep dive and use more efficient class selectors now.
+            </p> 
+            <p>The code repository for the product survey project is on <a href="xx">Github</a>. It is deployed live at Heroku <a href="xxx">here</a></p>
           </div>
         </div>
 
@@ -131,12 +126,10 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          
+          <h2>#TLDR: html, css, javascript, mobile first, react, react hooks</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
+              This is yet another certification requirement for FreeCodeCamp. The tests involving timing were a little tricky to satisfy. Designing a hook for the timer was difficult. Apparently I am not the only person on the planet that found that to be difficult. Just note that some of the setinterval hook comes from <a href="https://overreacted.io/making-setinterval-declarative-with-react-hooks/">this example</a> on the net where Dan Abramov explains how to implement it.
             </p>
           </div>
         </div>

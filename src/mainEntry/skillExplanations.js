@@ -70,7 +70,7 @@ const skillExplanations = [
         title: 'Git',
         icon: <FaGitAlt className="skill-icon" />,
         rating: 5, 
-        description: ['I use git every day and have a good grasp of it. However, I am pushing, pulling, and maintaining mostly my own repositories. I will have to sharpen my skills before I give myself a higher rating here. I remember being a little befuddled when trying to submit a pull request to Deichman.no, and had to ask for explanation about rebasing. I think I could quickly improve my skills here if working in a larger environment where the repository is not mine.']
+        description: ['I use git every day and have a good grasp of it. However, I have been pushing, pulling, and maintaining mostly my own repositories. I will have to sharpen my skills before I give myself a higher rating here. I need a more experience rebasing, squashing, and all that fun stuff that happens when multiple people are working on the same codebase.']
     },
     { id: 10, 
         title: 'Terminal',
