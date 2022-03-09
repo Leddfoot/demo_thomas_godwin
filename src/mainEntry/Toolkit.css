@@ -1,0 +1,16 @@
+.toolkit__wrapper {
+    background-color: white;
+}
+
+.skill-icon {
+    height: 300px;
+    line-height: 60px;
+    font-size: 8rem;
+
+}
+
+.toolkit__wrapper > .node {
+    color: white;
+    background-color: red;
+    height: 300px;
+}

@@ -1,17 +1,21 @@
 import React from "react";
 
-import landingPage from "../../img/landingPage.png";
-import landingPageMobile from "../../img/landingPage-mobile.jpg";
-import vinmonpolet from "../../img/vinmonopolet.png";
-import vinmonpoletMobile from "../../img/vinmonopolet-mobile.png";
-import docs from "../../img/docs.png";
-import docsMobile from "../../img/docs-mobile.jpg";
-import pomodoro from "../../img/pomodoro.png";
-import pomodoroMobile from "../../img/pomodoro-mobile.jpg";
-import survey from "../../img/survey.png";
-import surveyMobile from "../../img/survey-mobile.jpg";
-import quote from "../../img/quote.png";
-import quoteMobile from "../../img/quote-mobile.jpg";
+import landingPage from "../img/landingPage.png";
+import landingPageMobile from "../img/landingPage-mobile.jpg";
+import vinmonpolet from "../img/vinmonopolet.png";
+import vinmonpoletMobile from "../img/vinmonopolet-mobile.png";
+import docs from "../img/docs.png";
+import docsMobile from "../img/docs-mobile.jpg";
+import pomodoro from "../img/pomodoro.png";
+import pomodoroMobile from "../img/pomodoro-mobile.jpg";
+import survey from "../img/survey.png";
+import surveyMobile from "../img/survey-mobile.jpg";
+import quote from "../img/quote.png";
+import quoteMobile from "../img/quote-mobile.jpg";
+import drum from "../img/drum.png";
+import drumMobile from "../img/drum-mobile.jpg";
+
+import './PortfolioSection.css'
 
 function PortfolioSection() {
   return (
@@ -159,6 +163,31 @@ function PortfolioSection() {
             </p>
           </div>
         </div>
+
+        <div className="portfolio-section">
+          <h1>Drum Machine</h1>
+
+          <div className="image-container">
+            <img className="drum--img" src={drum} alt="view of drum page" />
+            <img
+              src={drumMobile}
+              className="mobile drum--img"
+              alt="view of drum mobile page"
+            />
+          </div>
+
+          <div className="portfolio__description">
+            <p>
+              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
+              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
+              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
+              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
+              bla balb balblab bla b
+            </p>
+          </div>
+        </div>
+
+
       </div>
     </>
   );

@@ -1,0 +1,35 @@
+
+.main-entry__wrapper { 
+    height: 6000px;
+    background-color: black;
+    margin-top: 0;
+}
+
+/*Temporary remove this to get rid of the hole up top*/
+.main-entry__wrapper .nav-wrapper {
+    margin-top: 3rem;
+}
+
+.main-entry__wrapper h1 {
+    background-color: black;
+    color: white;
+}
+
+
+.main-entry__wrapper .temp-fake-section {
+    background-color: lime;
+    height: 400px;
+}
+.main-entry__wrapper .temp-fake-section2 {
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+
+.main-entry__wrapper .button a {
+    color:white
+}
+
+
+

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import MainEntry from "./components/mainEntry/MainEntry"
+import MainEntry from './mainEntry/MainEntry'
 import RemoveTestsButton from "./components/UI/Button/RemoveTestsButton";
 import Pomodoro from "./pomodoro/Pomodoro";
 import Calculator from "./calculator/Calculator";
