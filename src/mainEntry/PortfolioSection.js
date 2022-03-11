@@ -131,6 +131,7 @@ function PortfolioSection() {
             <p>
               This is yet another certification requirement for FreeCodeCamp. The tests involving timing were a little tricky to satisfy. Designing a hook for the timer was difficult. Apparently I am not the only person on the planet that found that to be difficult. Just note that some of the setinterval hook comes from <a href="https://overreacted.io/making-setinterval-declarative-with-react-hooks/">this example</a> on the net where Dan Abramov explains how to implement it.
             </p>
+            <p>The code repository for the pomodoro project is on <a href="xx">Github</a>. It is deployed live at Heroku <a href="xxx">here</a></p>
           </div>
         </div>
 
@@ -147,12 +148,10 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          
+          <h2>#TLDR: javascript, css, html, mobile first, react, react hooks</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
+            This is yet another certification requirement for FreeCodeCamp. Nothing too complex, just a fetch to an external Api that retrieves quotes. The biggest challenge here was to style quotes of various lengths and have them fit properly. I added some logic to change the font size based on the length of the quote.
             </p>
           </div>
         </div>
@@ -170,12 +169,9 @@ function PortfolioSection() {
           </div>
 
           <div className="portfolio__description">
+          <h2>#TLDR: javascript, css, html, mobile first, react, react hooks</h2>
             <p>
-              bla blabla blab balblba bla balb balblab bla b.bla blabla blab
-              balblba bla balb balblab bla b.bla blabla blab balblba bla balb
-              balblab bla bbla blabla blab balblba bla balb balblab bla b.bla
-              blabla blab balblba bla balb balblab bla bbla blabla blab balblba
-              bla balb balblab bla b
+            This is FreeCodeCamp project was designed to be a bit of a headache to pass all of the user story tests. Take a look at them and you will see what I mean. You can click on a drum pad or use the corresponding letter on the keyboard to create the sound associated with it.
             </p>
           </div>
         </div>
