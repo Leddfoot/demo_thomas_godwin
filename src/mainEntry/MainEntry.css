@@ -16,6 +16,18 @@
 }
 
 
+.main-entry__wrapper .intro-section .intro-header {
+    font-size: 6rem;
+}
+.main-entry__wrapper .intro-section .intro-header,
+.main-entry__wrapper .intro-section .intro-subheader {
+    font-family: 'BebasNeue-Regular';
+    color: white;
+}
+
+.main-entry__wrapper .intro-section {
+    color: white;
+}
 .main-entry__wrapper .temp-fake-section {
     background-color: lime;
     height: 400px;
