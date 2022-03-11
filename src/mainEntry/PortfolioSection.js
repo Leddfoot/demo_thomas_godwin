@@ -67,7 +67,7 @@ function PortfolioSection() {
             <p>
              I completed this project for a certification on FreeCodeCamp. It's not so complex in itself. However it does offer insight into how I explain and document technical processes. More importantly, if you read some of the documentation itself, it does show how I overcame a nasty CORS situation and show that I can work at pure noob level with Node and express and fetching etc.
             </p>
-            <p>The code repository for the vinmonopolet project is on <a href="https://github.com/Leddfoot/docs_fcc">Github</a>. It is deployed live at Heroku <a href="https://github.com/Leddfoot/docs_fcc">here</a></p>
+            <p>The code repository for the vinmonopolet project is on <a href="https://github.com/Leddfoot/docs_fcc">Github</a>. It is deployed live at Heroku <a href="https://fcc-docs.herokuapp.com/">here</a></p>
           </div>
         </div>
 
