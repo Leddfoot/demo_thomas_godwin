@@ -20,8 +20,8 @@ import './PortfolioSection.css'
 function PortfolioSection() {
   return (
     <>
-      <div className="portfolio-wrapper">
-        <h1>My Stuff</h1>
+      <div className="portfolio-wrapper" id="portfolio">
+        <h1 className="portfolio-header">MY STUFF</h1>
 
         <div className="portfolio-section">
           <h1>Oh SH!T! is my vinmonopolet still open?!?</h1>

@@ -1,0 +1,41 @@
+.main-entry__wrapper .intro-section {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.main-entry__wrapper .intro-section > * {
+    margin: auto;
+}
+
+
+.main-entry__wrapper .intro-section .intro-header {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.main-entry__wrapper .intro-section .intro-subheader {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.main-entry__wrapper .intro-section .tldr__intro-section {
+    background-color: white;
+    color: black;
+    width: 72%;
+    font-size: .8rem;
+    border-radius: 3px;
+    padding: .75rem;
+    margin-bottom: 1rem;
+}
+
+.main-entry__wrapper .intro-section p{
+    font-size: .75rem;
+    margin-bottom: 1rem;
+}
+
+.main-entry__wrapper .intro-section .long-winded-explanation {
+width: 80%;
+background-color: yellow;
+}
