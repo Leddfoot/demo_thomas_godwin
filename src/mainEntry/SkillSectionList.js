@@ -1,7 +1,6 @@
 import React from "react";
 import skillExplanations from "./skillExplanations";
 import SkillItem from "./SkillItem";
-import './SkillSectionList.css'
 
 function SkillSectionList() {
 

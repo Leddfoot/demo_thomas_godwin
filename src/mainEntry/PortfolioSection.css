@@ -1,7 +1,9 @@
 .main-entry__wrapper .portfolio-section {
-  width: 100%;
   background-color: black;
   color: white;
+  margin: auto;
+  width: 80%;
+  font-size: 1.2rem;
 }
 
 .portfolio-wrapper .portfolio-header {
@@ -10,8 +12,7 @@
   font-size: 3rem;
 }
 .main-entry__wrapper .portfolio-section .image-container {
-  height: 150px;
-  width: 80%;
+  width: 100%;
   display: inline-block;
 }
 .main-entry__wrapper .portfolio-section .mobile {
@@ -25,7 +26,6 @@
 }
 
 .main-entry__wrapper .portfolio-section .portfolio__description {
-  width: 80%;
   max-width: 1000px;
   font-size: 0.75rem;
   margin: auto;
@@ -36,18 +36,12 @@
     border: .2px solid white;
 }
 
-.main-entry__wrapper .portfolio-section  {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto 1rem auto;
-  font-size: 1.2rem;
-}
-
 .main-entry__wrapper .portfolio-section h1 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 415px) {
   .main-entry__wrapper .portfolio-section .image-container {
     height: 150px;
     width: 80%;

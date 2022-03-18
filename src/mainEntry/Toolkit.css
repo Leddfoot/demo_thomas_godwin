@@ -1,4 +1,5 @@
 .toolkit__wrapper {
+    width: 85%;
     margin: auto;
     background-color: white;
     text-align: center;
@@ -8,6 +9,80 @@
     font-size: 4rem;
 }
 
+.skill-visual-component-wrapper {
+    border: 7px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.skill-section{
+    display: relative;
+    text-align: center;
+}
+
+
+.skill-image__wrapper {
+    margin: auto;
+    position: absolute;
+    top: 25px;
+    left: 52.5px;
+}
+
+.skill-icon {
+    font-size: 2rem;
+}
+
+.skill-rating__wrapper{
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    font-size: 3rem;
+}
+
+.skill-visual-component-wrapper #two-digit-rating{
+  left: 50px;
+} 
+
+.skill-explanation__wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.future-plans {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+/* .skill-visual-component-wrapper {
+    border: 7px solid black;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    margin: auto;
+
+}
+
+.skill-section{
+    display: relative;
+    text-align: center;
+}
+
+
+.skill-image__wrapper {
+    margin: auto;
+    position: absolute;
+    top: 25px;
+    left: 80px;
+}
 
 .skill-icon {
     line-height: 10px;
@@ -15,8 +90,15 @@
 
 }
 
-.toolkit__wrapper > .node {
-    color: white;
-    background-color: red;
-    height: 300px;
+.skill-rating__wrapper{
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 125px;
+    font-size: 6rem;
 }
+
+.skill-visual-component-wrapper #two-digit-rating{
+  left: 100px;
+}  */
+
