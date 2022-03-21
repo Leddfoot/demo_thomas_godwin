@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainEntry from './mainEntry/MainEntry'
 import RemoveTestsButton from "./components/UI/Button/RemoveTestsButton";
@@ -12,11 +12,6 @@ import QuoteMachine from "./quote-machine/QuoteMachine";
 import { TestButtonProvider } from "./components/context/TestButtonContext";
 
 const App = () => {
-  const [modalisvisible] = useState(true);
-  // const closeModal = () => {
-  //   setModalIsVisible(false);
-  // };
-
   return (
     <>
       <Router>
@@ -28,12 +23,12 @@ const App = () => {
             path="/"
             element={
               <>
-                <MainEntry modalisvisible={modalisvisible} />
+                <MainEntry />
               </>
             }
           />
 
-          <Route path="*" element={<h1>NO No Page not found</h1>} />
+          <Route path="*" element={<h1>NO NO NO  Page not found</h1>} />
           <Route path="/pomodoro" element={<Pomodoro />} />
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/drum" element={<Drum />} />
@@ -41,8 +36,6 @@ const App = () => {
           <Route path="/landing-page" element={<LandingPage />} />
           <Route path="/survey" element={<Survey />} />
           <Route path="/quote" element={<QuoteMachine />} />
-          <Route path="/notusedyet" element={<QuoteMachine />} />
-          <Route path="/notusedyet" element={<QuoteMachine />} />
         </Routes>
         </TestButtonProvider>
       </Router>

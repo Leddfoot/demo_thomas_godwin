@@ -16,10 +16,6 @@ function RemoveTestsButton() {
     const hideTestsButton = document.getElementById("hide-test-panel");
     hideTestsButton.style.display = "none";
 
-    // Note: the landing page has a top navbar which would cover the test suite
-    // the code below allow both to be shown (so tests can be ran) and removing the test suite allows
-    // the landing page to be viewed as it is intended (stop the scrolling behind the test suite)
-
     const landingPageHeader = document.getElementsByClassName("landing-page__header");
 
     if (landingPageHeader.length === 1) {

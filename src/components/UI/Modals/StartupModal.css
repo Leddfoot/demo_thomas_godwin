@@ -1,22 +1,3 @@
-/* .startup-modal {
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
-    color: white;
-    position:fixed;
-    top:0;
-    left: 0;
-}
-
-.startup-modal__card{
-    background-color: white;
-    margin:auto;
-    width: 33%;
-    height: 33%;
-    position: relative;
-    top: 3rem;
-    left: 1rem;
-} */
 
 
 .backdrop {
@@ -77,4 +58,14 @@
   .modal__action--negative:active {
     background: #ff5454;
     border-color: #ff5454;
+  }
+
+  @media(max-width: 600px) {
+    .modal {
+    width: 90vw;
+    top:5%;
+    left: 5%;
+      
+    }
+
   }

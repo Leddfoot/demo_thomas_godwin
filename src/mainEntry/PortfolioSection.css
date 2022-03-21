@@ -1,3 +1,7 @@
+.main-entry__wrapper .portfolio-wrapper{
+  max-width: 1200px;
+  margin: auto;
+}
 .main-entry__wrapper .portfolio-section {
   background-color: black;
   color: white;
@@ -14,6 +18,9 @@
 .main-entry__wrapper .portfolio-section .image-container {
   width: 100%;
   display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin-bottom: 6rem;
 }
 .main-entry__wrapper .portfolio-section .mobile {
   display: none;
@@ -29,6 +36,7 @@
   max-width: 1000px;
   font-size: 0.75rem;
   margin: auto;
+  margin-bottom: 1.5rem;
 }
 
 .portfolio-section .vinmonopolet--img,
@@ -39,9 +47,45 @@
 .main-entry__wrapper .portfolio-section h1 {
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
+.tldr {
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+}
+
+
 @media (min-width: 415px) {
+  .main-entry__wrapper .portfolio-section .image-container {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  .main-entry__wrapper .portfolio-section img {
+    height: 100%;
+    width: 75%;
+    border-radius: 6px;
+    margin: auto;
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .main-entry__wrapper .portfolio-section .mobile {
+    margin-left: -10px !important;
+    width: 20%;
+    transform: skew(-2deg, 2deg);
+    border-left: 0.1px solid darkslategrey;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}
+/* @media (min-width: 415px) {
   .main-entry__wrapper .portfolio-section .image-container {
     height: 150px;
     width: 80%;
@@ -68,9 +112,9 @@
     display: inline-block;
     margin-left: 1rem;
   }
-}
+} */
 
-@media (min-width: 750px) {
+/* @media (min-width: 750px) {
   .main-entry__wrapper .portfolio-section .image-container {
     height: 250px;
   }
@@ -78,12 +122,12 @@
   .main-entry__wrapper .portfolio-section img {
     max-width: 336px;
   }
-}
+} */
+
 
 @media (min-width: 1000px) {
     
     .main-entry__wrapper .portfolio-section .image-container {
-        height: 350px;
         display: inline-block;
         width: 60%;
     }
@@ -91,5 +135,7 @@
     .main-entry__wrapper .portfolio-section .portfolio__description {
         display: inline-block;
         width: 35%;
+        vertical-align: middle;
+        margin-bottom: 1.5rem;
     }
 }
