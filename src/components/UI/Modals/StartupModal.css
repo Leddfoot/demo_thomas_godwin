@@ -62,10 +62,15 @@
 
   @media(max-width: 600px) {
     .modal {
-    width: 90vw;
+    width: 80%;
     top:5%;
     left: 5%;
+    margin: auto;
       
+    }
+
+    .modal p {
+      font-size: .75rem;
     }
 
   }

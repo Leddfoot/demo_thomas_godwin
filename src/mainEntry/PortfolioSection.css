@@ -111,6 +111,7 @@
   }
   .tldr {
     margin: 0;
+    padding: 1rem;
   }
 
   .main-entry__wrapper .portfolio-section h2 {
