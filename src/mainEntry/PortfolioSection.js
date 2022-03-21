@@ -61,7 +61,7 @@ function PortfolioSection() {
               solved my problem by creating my own Node exress server. I queried
               my own server and got around CORS. I was kinda proud of that. I
               used the experience later to create a documentation page for a
-              certification requirement. That documentation can be found{" "}
+              certification requirement. That documentation can be found &nbsp;
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -71,7 +71,7 @@ function PortfolioSection() {
               </a>
             </p>
             <p>
-              The code repository for the vinmonopolet project is on{" "}
+              The code repository for the vinmonopolet project is on &nbsp;
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -79,7 +79,7 @@ function PortfolioSection() {
               >
                 Github
               </a>
-              . It is deployed live at Heroku{" "}
+              . It is deployed live at Heroku &nbsp;
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -121,7 +121,7 @@ function PortfolioSection() {
               with Node and express and fetching etc.
             </p>
             <p>
-              The code repository for the vinmonopolet project is on{" "}
+              The code repository for the documentation project is on{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -135,7 +135,7 @@ function PortfolioSection() {
                 rel="noreferrer"
                 href="https://fcc-docs.herokuapp.com/"
               >
-                here
+                here.
               </a>
             </p>
           </div>
@@ -168,11 +168,14 @@ function PortfolioSection() {
             </p>
             <p>
               The code repository for the product landing page project is on{" "}
-              <a 
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/Leddfoot/landing_page_fcc">Github</a>.
-              It is deployed live at Heroku <a href="/landing-page">here</a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/landing_page_fcc"
+              >
+                Github
+              </a>
+              . It is deployed live at Heroku <a href="/landing-page">here.</a>
             </p>
           </div>
         </div>
@@ -180,10 +183,12 @@ function PortfolioSection() {
         <div className="portfolio-section">
           <h1>Product Survey Page</h1>
 
-          <a 
-          target="_blank"
-          rel="noreferrer"
-          className="image-container" href="/survey">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="image-container"
+            href="/survey"
+          >
             <img src={survey} alt="view of survey page" />
             <img
               src={surveyMobile}
@@ -205,14 +210,17 @@ function PortfolioSection() {
             </p>
             <p>
               The code repository for the product survey project is on{" "}
-              <a 
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/Leddfoot/survey-form-fcc">Github</a>.
-              It is deployed live at Heroku <a 
-              target="_blank"
-              rel="noreferrer"
-              href="/survey">here</a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/survey-form-fcc"
+              >
+                Github
+              </a>
+              . It is deployed live at Heroku{" "}
+              <a target="_blank" rel="noreferrer" href="/survey">
+                here.
+              </a>
             </p>
           </div>
         </div>
@@ -220,10 +228,12 @@ function PortfolioSection() {
         <div className="portfolio-section">
           <h1>Pomodoro Timer</h1>
 
-          <a 
-          target="_blank"
-          rel="noreferrer"
-          className="image-container" href="/pomodoro">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="image-container"
+            href="/pomodoro"
+          >
             <img src={pomodoro} alt="view of pomodoro page" />
             <img
               src={pomodoroMobile}
@@ -242,24 +252,28 @@ function PortfolioSection() {
               Designing a hook for the timer was difficult. Apparently I am not
               the only person on the planet that found that to be difficult.
               Just note that some of the setinterval hook comes from{" "}
-              <a 
-              target="_blank"
-              rel="noreferrer"
-              href="https://overreacted.io/making-setinterval-declarative-with-react-hooks/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://overreacted.io/making-setinterval-declarative-with-react-hooks/"
+              >
                 this example
               </a>{" "}
               on the net where Dan Abramov explains how to implement it.
             </p>
             <p>
               The code repository for the pomodoro project is on{" "}
-              <a 
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/Leddfoot/pomodoro_fcc">Github</a>. It
-              is deployed live at Heroku <a 
-              target="_blank"
-              rel="noreferrer"
-              href="/pomodoro">here</a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/pomodoro_fcc"
+              >
+                Github
+              </a>
+              . It is deployed live at Heroku{" "}
+              <a target="_blank" rel="noreferrer" href="/pomodoro">
+                here
+              </a>
             </p>
           </div>
         </div>
@@ -267,10 +281,12 @@ function PortfolioSection() {
         <div className="portfolio-section">
           <h1>Quote Fetcher</h1>
 
-          <a 
-          target="_blank"
-          rel="noreferrer"
-          className="image-container" href="/quote">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="image-container"
+            href="/quote"
+          >
             <img src={quote} alt="view of quote page" />
             <img
               src={quoteMobile}
@@ -292,14 +308,17 @@ function PortfolioSection() {
             </p>
             <p>
               The code repository for the quote maker project is on{" "}
-              <a 
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/Leddfoot/quote_machine_fcc">Github</a>
-              . It is deployed live at Heroku <a 
-              target="_blank"
-              rel="noreferrer"
-              href="/quote">here</a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/quote_machine_fcc"
+              >
+                Github
+              </a>
+              . It is deployed live at Heroku{" "}
+              <a target="_blank" rel="noreferrer" href="/quote">
+                here.
+              </a>
             </p>
           </div>
         </div>
@@ -307,10 +326,12 @@ function PortfolioSection() {
         <div className="portfolio-section">
           <h1>Drum Machine</h1>
 
-          <a 
-          target="_blank"
-          rel="noreferrer"
-          className="image-container" href="/drum">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="image-container"
+            href="/drum"
+          >
             <img className="drum--img" src={drum} alt="view of drum page" />
             <img
               src={drumMobile}
@@ -333,14 +354,42 @@ function PortfolioSection() {
 
             <p>
               The code repository for the drum project is on{" "}
-              <a 
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/Leddfoot/drum_fcc">Github</a>. It is
-              deployed live at Heroku <a 
-              target="_blank"
-              rel="noreferrer"
-              href="/drum">here</a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/drum_fcc"
+              >
+                Github
+              </a>
+              . It is deployed live at Heroku{" "}
+              <a target="_blank" rel="noreferrer" href="/drum">
+                here.
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className="portfolio-section">
+          <h1>This Demo Page</h1>
+
+          <div className={["portfolio__description", "this-demo"].join(" ")}>
+            <p>
+              This page is my latest work. It is mostly just a compilation of
+              several existing bits, but did require consistent styling across
+              several combined pages. Admittedly the BEM naming didn't end up as
+              something I'm proud of. I do plan to invest the time and correct
+              this.
+            </p>
+
+            <p>
+              The code repository for this project is on {" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/demo_thomas_godwin"
+              >
+                Github.
+              </a>
             </p>
           </div>
         </div>

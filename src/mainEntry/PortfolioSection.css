@@ -1,4 +1,4 @@
-.main-entry__wrapper .portfolio-wrapper{
+.main-entry__wrapper .portfolio-wrapper {
   max-width: 1200px;
   margin: auto;
 }
@@ -7,7 +7,6 @@
   color: white;
   margin: auto;
   width: 80%;
-  font-size: 1.2rem;
 }
 
 .portfolio-wrapper .portfolio-header {
@@ -15,13 +14,15 @@
   text-align: center;
   font-size: 3rem;
 }
+
 .main-entry__wrapper .portfolio-section .image-container {
   width: 100%;
   display: inline-block;
   position: relative;
   vertical-align: middle;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
+
 .main-entry__wrapper .portfolio-section .mobile {
   display: none;
 }
@@ -34,14 +35,14 @@
 
 .main-entry__wrapper .portfolio-section .portfolio__description {
   max-width: 1000px;
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin: auto;
   margin-bottom: 1.5rem;
 }
 
 .portfolio-section .vinmonopolet--img,
 .portfolio-section .drum--img {
-    border: .2px solid white;
+  border: 0.2px solid white;
 }
 
 .main-entry__wrapper .portfolio-section h1 {
@@ -56,7 +57,6 @@
   color: black;
   border-radius: 3px;
 }
-
 
 @media (min-width: 415px) {
   .main-entry__wrapper .portfolio-section .image-container {
@@ -85,57 +85,42 @@
     margin-left: 1rem;
   }
 }
-/* @media (min-width: 415px) {
-  .main-entry__wrapper .portfolio-section .image-container {
-    height: 150px;
-    width: 80%;
-    text-align: center;
-    position: relative;
-    margin: auto;
-  }
-
-  .main-entry__wrapper .portfolio-section img {
-    height: 100%;
-    max-width: 200px;
-    border-radius: 6px;
-    margin: auto;
-    display: inline;
-    vertical-align: middle;
-  }
-
-  .main-entry__wrapper .portfolio-section .mobile {
-    margin-left: -10px !important;
-    height: 125px;
-    width: 60px;
-    transform: skew(-2deg, 2deg);
-    border-left: 0.1px solid darkslategrey;
-    display: inline-block;
-    margin-left: 1rem;
-  }
-} */
-
-/* @media (min-width: 750px) {
-  .main-entry__wrapper .portfolio-section .image-container {
-    height: 250px;
-  }
-
-  .main-entry__wrapper .portfolio-section img {
-    max-width: 336px;
-  }
-} */
-
 
 @media (min-width: 1000px) {
-    
-    .main-entry__wrapper .portfolio-section .image-container {
-        display: inline-block;
-        width: 60%;
-    }
 
-    .main-entry__wrapper .portfolio-section .portfolio__description {
-        display: inline-block;
-        width: 35%;
-        vertical-align: middle;
-        margin-bottom: 1.5rem;
-    }
+  .modal {
+    font-size: 1rem;
+  }
+
+  .main-entry__wrapper .portfolio-section .image-container {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .main-entry__wrapper .portfolio-section .portfolio__description {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .main-entry__wrapper .portfolio-section .portfolio__description.this-demo {
+    display: block;
+    width: 100%;
+  }
+  .tldr {
+    margin: 0;
+  }
+
+  .main-entry__wrapper .portfolio-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+
+  .modal {
+    font-size: 1rem;
+  }
 }

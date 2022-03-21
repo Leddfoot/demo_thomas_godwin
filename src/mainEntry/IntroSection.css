@@ -1,74 +1,75 @@
 .main-entry__wrapper .intro-section {
-    width: 80%;
-    margin: auto;
-    color: white;
-    max-width: 900px;
-    overflow: hidden;
+  width: 80%;
+  margin: auto;
+  color: white;
+  max-width: 900px;
+  overflow: hidden;
 }
 
 .main-entry__wrapper .intro-section > * {
-    margin: auto;
+  margin: auto;
 }
 
+.main-entry__wrapper .intro-section .intro-header {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  padding-top: 3rem;
+  text-align: center;
+}
 
 .main-entry__wrapper .intro-section .intro-header {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    font-size: 1rem;
+  }
+
+  25% {
     font-size: 5rem;
-    margin-bottom: 1rem;
-    padding-top: 3rem;
-    text-align: center;
+  }
+
+  75% {
+    font-size: 20rem;
+  }
+
+  to {
+    font-size: 50rem;
+  }
 }
-
-.main-entry__wrapper .intro-section .intro-header {
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      font-size: 1rem;
-    }
-
-    25%{
-      font-size: 5rem;
-    }
-  
-    75% {
-      font-size: 20rem;
-    }
-  
-    to {
-      font-size: 50rem;
-    }
-  }
 
 .main-entry__wrapper .intro-section .intro-subheader {
-    margin-bottom: 1rem;
-    text-align: center;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .main-entry__wrapper .intro-section .tldr__intro-section {
-    background-color: white;
-    color: black;
-    font-size: .8rem;
-    border-radius: 3px;
-    padding: .75rem;
-    margin-bottom: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
 }
 
-.main-entry__wrapper .intro-section p{
-    font-size: .75rem;
-    margin: 1rem 0 1rem 0;
+.main-entry__wrapper .intro-section p {
+  font-size: 1rem;
+  margin: 1rem 0 1rem 0;
 }
 
-
-
-@media (min-width: 1100px) {
-    .main-entry__wrapper .intro-section .intro-header {
+@media (min-width: 1000px) {
+  .main-entry__wrapper .intro-section .intro-header {
     font-size: 16rem;
   }
 
   .main-entry__wrapper .intro-section .intro-subheader {
     margin-bottom: 3rem;
     font-size: 6rem;
-}
   }
+
+  .main-entry__wrapper .intro-section {
+    font-size: 2rem;
+  }
+}

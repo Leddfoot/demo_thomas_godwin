@@ -1,14 +1,15 @@
 import React from 'react'
 import './LPModal.css'
+import Button from '../Button/Button'
 
 function LPModal({closeModal}) {
   return (
     <>
     <div className="backdrop"></div>
     <div className="modal">
-      <h1 className="modal__text">This page has a navbar fixed to the top. But the tests for this page also are up top. The tests are installed via CDN, complete with inline styling, so styling is a pain. I Recommended running the tests on this page, and then hiding the tests and button. NOTE: Test one will fail because it tests the postition of the navbar, which I have temporarily moved down.</h1>
+      <p className="modal__text">This page has a navbar fixed to the top. Until the tests are hidden, the page WILL APPEAR BROKEN (content will scroll behind the test suite, but this is corrected when the test suite is hidden). I recommended running the tests on this page, and then hiding the tests and button. NOTE: Test one will fail because it tests the position of the navbar, which I have temporarily moved down so I could include the test suite.</p>
       <div className="modal__actions">
-      <button onClick={closeModal}>Got it!</button>
+      <Button onClick={closeModal}>Got it!</Button>
 
       </div>
     </div>
